@@ -72,7 +72,7 @@ fn main() {
         };
 
         let choice: MenuChoice = match choice {
-            1 => MenuChoice::Pingala(0),
+            1 => {MenuChoice::Pingala(0),
                 let temp = get_input();
                 f_to_c_temperature()
             },
